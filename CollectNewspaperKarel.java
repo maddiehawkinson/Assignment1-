@@ -32,7 +32,7 @@ public class CollectNewspaperKarel extends Karel {
 	move();
 	move();
 	turnLeft();
-	turnleft();
+	turnLeft();
 	}
 	
 }
