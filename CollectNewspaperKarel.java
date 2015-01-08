@@ -15,13 +15,12 @@ public class CollectNewspaperKarel extends Karel {
 		turnLeft();
 		turnLeft();
 		turnLeft();
-}
+	}
 
-public class CollectNewspaperKarel extends Karel {
-		public void turnAround() {
+	public void turnAround() {
 			turnLeft();
 			turnLeft();
-}
+	}
 		
 	public void run() {
 	move();
