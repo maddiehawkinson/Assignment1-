@@ -8,17 +8,25 @@ public class StoneMasonKarel extends SuperKarel {
 					for (int i=0; i<4; i++) {
 						move(); }
 		}
-		private void fixStreetArch() {
+		private void fixRightStreet() {
 			while (frontIsClear()) {
 				putBeepersDownWhenNonePresent(); 
+				turnLeft();
+				move();
+				turnLeft();
+			}
+		}
+		private void fixLeftStreet() {
+			while (frontIsClear()) {
+				putBeepersDownWhenNonePresent();
+				turnRight();
+				move();
+				turnRight();
 			}
 		}
 		public void run () {
-			fixStreetArch(); 
-			turnLeft();	
-			move();
-			turnLeft();
-			fixStreetArch();
+			fixRightStreet();
+			fixLeftStreet();
 		}	
 	}
 	
