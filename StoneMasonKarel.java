@@ -6,17 +6,11 @@ public class StoneMasonKarel extends SuperKarel {
 		while (frontIsClear()) {
 			for (int i=0; i>4; i++) {
 				move();
-				fixArch();	
+				putBeeper();	
 			}
 			turnLeft(); 
 			move();
 			turnLeft(); }
-		}
-	private void fixArch() {
-		for (int i=0; i>4; i++) {
-			if (noBeepersPresent())
-				putBeeper(); 
-			}
 		}
 	}
 	
