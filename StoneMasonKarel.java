@@ -12,11 +12,10 @@ public class StoneMasonKarel extends SuperKarel {
 			turnLeft();
 		}
 	private void fixArch() {
-		if (noBeepersPresent()) {
-			for (int i=0; i>4; i++) {
+		for (int i=0; i>4; i++) {
+			if (noBeepersPresent())
 				putBeeper(); 
 			}
 		}
 	}
-}
 	
