@@ -16,6 +16,8 @@ public class StoneMasonKarel extends SuperKarel {
 		public void run () {
 			fixStreetArch(); 
 			turnLeft();	
+			move();
+			turnLeft();
 			putBeepersDownWhenNonePresent();
 		}	
 	}
