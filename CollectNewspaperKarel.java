@@ -1,3 +1,5 @@
+*File: CollectNewspaperKarel.java 
+
 import stanford.karel.*;
 
 public class CollectNewspaperKarel extends Karel {
