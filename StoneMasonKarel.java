@@ -2,7 +2,9 @@
 import stanford.karel.*;
 
 public class StoneMasonKarel extends SuperKarel 
-	while (frontIsClear()) {
-		move();
+	public void run () {
+		while (frontIsClear()) {
+			move();
+		}
 	}
 }
