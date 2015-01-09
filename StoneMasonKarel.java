@@ -25,8 +25,7 @@ public class StoneMasonKarel extends SuperKarel {
 			move();
 			turnRight();}
 			}
-		public void run () {
-			if (frontIsClear()) 
+		public void run() {
 				fixRightStreet();
 				fixLeftStreet();
 		}	
