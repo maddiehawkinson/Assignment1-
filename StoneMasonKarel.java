@@ -12,18 +12,18 @@ public class StoneMasonKarel extends SuperKarel {
 		private void fixRightStreet() {
 			if (frontIsClear()) {
 				putBeepersDownWhenNonePresent(); 
-			} else { 
-				turnLeft();
-				move();
-				turnLeft(); }
+			}
+			turnLeft();
+			move();
+			turnLeft(); 
 			}
 		private void fixLeftStreet() {
 			if (frontIsClear()) {
 				putBeepersDownWhenNonePresent();
-			} else {
+			}
 			turnRight();
 			move();
-			turnRight();}
+			turnRight();
 			}
 		public void run() {
 				fixRightStreet();
