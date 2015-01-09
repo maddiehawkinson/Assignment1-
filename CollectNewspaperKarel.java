@@ -35,7 +35,7 @@ public class CollectNewspaperKarel extends Karel {
 
 /** Defines turnRight for the program.*/
 	
-private void turnRight() {
+public void turnRight() {
 	turnLeft();
 	turnLeft(); 
 	turnLeft();
@@ -43,7 +43,7 @@ private void turnRight() {
 	
 /** Defines turnAround for the program.*/
 	
-private void turnAround() {
+public void turnAround() {
 	turnLeft();
 	turnLeft();
 	}
