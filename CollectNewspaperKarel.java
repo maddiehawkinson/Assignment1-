@@ -11,10 +11,10 @@
 /**CollectNewspaperKarel will pick up the newspaper and bring it back inside, 
  * returning to his initial spot.
  */
+
 import stanford.karel.*;
 
-public class CollectNewspaperKarel extends Karel {
-		
+public class CollectNewspaperKarel extends Karel {	
 	public void run() {
 	move();
 	move();
@@ -34,6 +34,7 @@ public class CollectNewspaperKarel extends Karel {
 	}
 
 /** Defines turnRight for the program.*/
+	
 	private void turnRight() {
 		turnLeft();
 		turnLeft();
