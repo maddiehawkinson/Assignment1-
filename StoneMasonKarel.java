@@ -7,7 +7,9 @@ public class StoneMasonKarel extends SuperKarel {
 				move();
 				fixArch();	
 			}
-			turnAround(); 
+			turnLeft(); 
+			move();
+			turnLeft();
 		}
 	private void fixArch() {
 		if (noBeepersPresent()) {
