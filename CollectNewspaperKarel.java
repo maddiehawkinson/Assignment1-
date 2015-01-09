@@ -24,21 +24,21 @@ public class CollectNewspaperKarel extends Karel {
 		}
 	
 	public void run() {
-	move();
-	move();
-	turnRight(); 
-	move();
-	turnLeft();
-	move();
-	pickBeeper();
-	turnAround();
-	move();
-	turnRight();
-	move();
-	turnLeft();
-	move();
-	move();
-	turnAround();
-	}
+		move();
+		move();
+		turnRight(); 
+		move();
+		turnLeft();
+		move();
+		pickBeeper();
+		turnAround();
+		move();
+		turnRight();
+		move();
+		turnLeft();
+		move();
+		move();
+		turnAround();
+		}
 }
 
