@@ -8,6 +8,7 @@ public class StoneMasonKarel extends SuperKarel {
 				move();
 				fixArch();	
 			}
+			turnAround(); 
 		}
 	}
 	private void fixArch() {
