@@ -14,7 +14,23 @@
 
 import stanford.karel.*;
 
-public class CollectNewspaperKarel extends Karel {	
+public class CollectNewspaperKarel extends Karel {
+	
+	/** Defines turnRight for the program.*/
+	
+	public void turnRight() {
+		turnLeft();
+		turnLeft(); 
+		turnLeft();
+		}
+		
+	/** Defines turnAround for the program.*/
+		
+	public void turnAround() {
+		turnLeft();
+		turnLeft();
+		}
+	
 	public void run() {
 	move();
 	move();
@@ -31,21 +47,6 @@ public class CollectNewspaperKarel extends Karel {
 	move();
 	move();
 	turnAround();
-	}
-
-/** Defines turnRight for the program.*/
-	
-public void turnRight() {
-	turnLeft();
-	turnLeft(); 
-	turnLeft();
-	}
-	
-/** Defines turnAround for the program.*/
-	
-public void turnAround() {
-	turnLeft();
-	turnLeft();
 	}
 }
 
