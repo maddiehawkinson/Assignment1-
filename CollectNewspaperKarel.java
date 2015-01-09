@@ -8,23 +8,15 @@
  * to its initial position in the upper left corner of the house.
  */
 
-/**CollectNewspaperKarel will pick up the newspaper and bring it back inside, 
- * returning to his initial spot.
- */
 
 import stanford.karel.*;
 
 public class CollectNewspaperKarel extends Karel {
-	
-	/** Defines turnRight for the program.*/
-	
 	public void turnRight() {
 		turnLeft();
 		turnLeft(); 
 		turnLeft();
 		}
-		
-	/** Defines turnAround for the program.*/
 		
 	public void turnAround() {
 		turnLeft();
