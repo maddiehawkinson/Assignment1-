@@ -10,7 +10,7 @@ public class StoneMasonKarel extends SuperKarel {
 			}
 		}
 		private void fixRightStreet() {
-			if (frontIsClear()) {
+			while (frontIsClear()) {
 				checkForBeeper(); 
 			}
 			turnLeft();
